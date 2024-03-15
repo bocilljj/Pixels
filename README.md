@@ -3,19 +3,19 @@
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
 
 Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting).
-
+pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS
 ----------------------
 
 ### TLDR
 
 * Execute `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 * If using an android terminal app with elevated permission,
-  execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
+  execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS
 
 ----------------------
 
 ADB Procedures using a PC:
-----------------------
+----
 
 ### 1. Enable developer mode in phone's settings
 
